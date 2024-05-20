@@ -1,11 +1,11 @@
 # Ticket_system
 
 A fully functional ticketing system with
-. with a login system
-. account level
-. ticket creation
-. Technician dashboard
-. Account management dashboard with, modification/creation/deletion
+- with a login system
+- account level
+- ticket creation
+- Technician dashboard
+- Account management dashboard with, modification/creation/deletion
 
 # copyright
 

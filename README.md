@@ -7,7 +7,7 @@ A fully functional ticketing system with
 . Technician dashboard
 . Account management dashboard with, modification/creation/deletion
 
-#copyright
+# copyright
 
 Non-Commercial Use Copyright Notice
 

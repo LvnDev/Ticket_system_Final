@@ -83,31 +83,6 @@ namespace Ticket_system
                 db.Tickets.Add(ticket);
                 db.SaveChanges();
                 Response.Redirect("sucess.aspx");
-                //try
-                //{
-                //    foreach (var ticket in dbticket)
-                //    {
-
-                //            //specify which goes where. the ticket ID will just auto increment
-                //            ticket.employeeID = Convert.ToInt32(IdLbl.Text); 
-                //            ticket.message = Convert.ToString(messagetxt.Text);
-                //            ticket.subject = Convert.ToString(subtxt.Text);
-                //            ticket.Completed = Convert.ToBoolean(false);
-
-                //            dbticket.Add(ticket); // save tickets into db ticket.
-
-                //        errorLbl.Text = "FOREACH WORKS";
-                //        break;
-
-                //    }
-                //    db.SaveChanges(); //save changes
-                //    //Response.Redirect("sucess.aspx");
-
-                //}   
-                //catch(Exception ex)
-                //{
-                //    errorLbl.Text = "Contact IT support. Error Message: " + ex.Message;
-                //}
             }
         }
     }
